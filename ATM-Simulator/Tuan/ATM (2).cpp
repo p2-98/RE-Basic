@@ -133,14 +133,14 @@ void xuatFile(tt a[], int n, char fileName[]){
 }
 void xoatt()
 { 
-char fileName[] = "thongtinhk.txt";
+char fileName[] = "thongtinkht.txt";
 int luachon;
     printf("Quy khach co muon xoa thong tin khach hang?\n");
     printf("1-co  2-khong\n");
     scanf("%d", &luachon);
     if(luachon==1) 
 	{
-	if (remove("thongtinkh.txt") == 0) ;
+	if (remove("thongtinkht.txt") == 0) ;
       printf("Deleted successfully");
 	}   
    else
@@ -148,7 +148,7 @@ int luachon;
  }     
 void anhtuan()
 {
-	char fileName[] = "thongtinkh.txt";
+	char fileName[] = "thongtinkht.txt";
     int n;
     int key ;
     bool daNhap = false;
